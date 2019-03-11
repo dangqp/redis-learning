@@ -1,17 +1,18 @@
 package com.dangqp.redision.redis.redisssion;
 
 import org.redisson.Redisson;
-import org.redisson.api.*;
+import org.redisson.api.RAtomicLong;
+import org.redisson.api.RList;
+import org.redisson.api.RLock;
+import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
 
-import java.io.File;
 import java.io.IOException;
 
 /**
  * Title:com.dangqp.redision.redis.redisssion
  * Description:
  * Copyright: Copyright (c) 2019
- * Company: 北京思特奇信息技术股份有限公司
  *
  * @author dangqp
  * @version 1.0

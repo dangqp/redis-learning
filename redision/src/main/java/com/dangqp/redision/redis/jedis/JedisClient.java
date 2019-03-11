@@ -1,6 +1,5 @@
 package com.dangqp.redision.redis.jedis;
 
-import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import redis.clients.jedis.*;
 
 import java.util.ArrayList;
@@ -10,7 +9,6 @@ import java.util.List;
  * Title:com.dangqp.redision.redis.jedis
  * Description:
  * Copyright: Copyright (c) 2019
- * Company: 北京思特奇信息技术股份有限公司
  *
  * @author dangqp
  * @version 1.0
